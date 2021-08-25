@@ -1,4 +1,3 @@
-lappend ::auto_path C:\\Projekty\\GIT\\nats-tcl
 package require nats
 
 set ::conn [nats::connection new "MyNats"]
